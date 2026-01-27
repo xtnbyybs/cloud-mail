@@ -622,16 +622,15 @@ addCollection({
     }
 })
 addCollection({
-    "prefix": "fa7-solid",
-    "lastModified": 1759381039,
-    "aliases": {},
-    "width": 512,
-    "height": 512,
-    "icons": {
-        "user-plus": {
-            "body": "<path fill=\"currentColor\" d=\"M136 128a120 120 0 1 1 240 0a120 120 0 1 1-240 0M48 482.3C48 383.8 127.8 304 226.3 304h59.4c98.5 0 178.3 79.8 178.3 178.3c0 16.4-13.3 29.7-29.7 29.7H77.7C61.3 512 48 498.7 48 482.3M544 96c13.3 0 24 10.7 24 24v48h48c13.3 0 24 10.7 24 24s-10.7 24-24 24h-48v48c0 13.3-10.7 24-24 24s-24-10.7-24-24v-48h-48c-13.3 0-24-10.7-24-24s10.7-24 24-24h48v-48c0-13.3 10.7-24 24-24\"/>",
-            "width": 640
-        }
+     "prefix": "mingcute", // 自定义图标集前缀
+  "lastModified": 1760000000, // 时间戳
+  "aliases": {},
+  "width": 24,
+  "height": 16, // 国旗宽高比为3:2，这里设为24×16
+  "icons": {
+   "github-line": {
+      "body": "<rect width=\"100%\" height=\"100%\" fill=\"#DE2910\" rx=\"2\"/><path d=\"M20 8L22 10L20 12L18 10Z\" fill=\"#FFDE00\"/><path d=\"M28 14L30 16L28 18L26 16Z\" fill=\"#FFDE00\"/><path d=\"M32 10L34 12L32 14L30 12Z\" fill=\"#FFDE00\"/><path d=\"M32 18L34 20L32 22L30 20Z\" fill=\"#FFDE00\"/><path d=\"M28 24L30 26L28 28L26 26Z\" fill=\"#FFDE00\"/>"
+   }
     }
 })
 addCollection({
